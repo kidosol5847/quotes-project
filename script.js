@@ -15,7 +15,7 @@ const a = document.querySelector('#quoteBtn');
 const b = document.querySelector('#quoteAuthor');
 const c = document.querySelector('#quote');
 
-a.addEventListener(click,d)
+a.addEventListener('click',d)
 function d(){
     let num = Math.floor(Math.random()*quotes.length);
     b.innerHTML = quotes[num].name;
